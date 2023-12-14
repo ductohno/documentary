@@ -1,0 +1,2 @@
+*** " As ’-‘ means reading from/to stdin in a shell, you need to specify a path to read the file. If you don’t specify the path, cat will read from stdin and print back your input".
+    - Có nghĩa là những file có - khởi đầu thì phải dùng câu lệnh cat./- (tên file ) để mở, nếu ko nó xin in ra input, còn lời giải thích như trên.
