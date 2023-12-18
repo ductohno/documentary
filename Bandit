@@ -7,3 +7,15 @@
     - ví dụ: .hidden 
 ***bandit4: Để truy cập tất cả các file trong dictionary, ta sử dụng dấu * thay cho tất cả các file 
     - ví dụ: file *: định dạng file tất cả các file.
+***bandit5: WELCOME to đại cương lệnh file đmm :))))
+    1. câu lệnh: file . -con a -con b -con c ..... -con n cat {} \;
+       + con: điều kiện ( conditional )
+    2. dấu . là tìm trong tất cả mọi thứ trong thư viện đó
+    3. nếu cần tìm kích thước thì size + kích thước
+        + ví dụ: size 1000c 
+             + c là đơn vị, tượng trưng cho byte, ta có byte >two-byte > kilobytes > megabytes > gigabytes là thuộc các chữ tương ứng c > w > k > M > G
+    4. type f : tượng trưng cho type file, tìm kiếm tệp tin 
+
+    5.  "-executable" : có thể thực thi, nếu muốn dùng câu lệnh ko thực thi thì là '! -executable'.
+    6. cat {}: truy cập vào file vừa tìm được bởi find 
+    7.  '\;' : kết thúc flag
