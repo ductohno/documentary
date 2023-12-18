@@ -5,3 +5,5 @@
       2. dùng dấu ' ' để tách tên file, ví dụ cat 'space in this filename' 
 ***bandit3: Truy cập 1 thư viện thì dùng cd, nhớ sử dụng ls -a để kiểm tra file ẩn, file ẩn có dấu chấm trước ten file
     - ví dụ: .hidden 
+***bandit4: Để truy cập tất cả các file trong dictionary, ta sử dụng dấu * thay cho tất cả các file 
+    - ví dụ: file *: định dạng file tất cả các file.
