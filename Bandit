@@ -3,3 +3,5 @@
 ***bandit2: đối với những tên có dấu cách, có 2 cách để cat(truy cập ) được file đó là:
       1. dùng dấu \ giữa các từ, ví dụ: cat space\ in\ this\ filename (nếu viết liền thì nó sẽ là spaceinthisfilename, sai với đầu bài )
       2. dùng dấu ' ' để tách tên file, ví dụ cat 'space in this filename' 
+***bandit3: Truy cập 1 thư viện thì dùng cd, nhớ sử dụng ls -a để kiểm tra file ẩn, file ẩn có dấu chấm trước ten file
+    - ví dụ: .hidden 
