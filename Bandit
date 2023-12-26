@@ -25,4 +25,7 @@
         - 1>: xuất những output không bị lỗi
         - 2>: xuất những output bị lỗi ( tức là ném hết output bị lỗi sang dev/null)
      3. câu lệnh: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null -exec cat {} \;
+***bandit7 
+      1. câu lệnh: cat data.txt | grep "millionth"
+      2. "|" là dấu kết nối output của lệnh cat sang lệnh grep
 
