@@ -35,4 +35,6 @@
 ***bandit9 
        *câu lệnh: cat data.txt | strings | grep "=="
           1. strings: hiển thị file dưới dạng strings 
-
+***bandit10
+       *câu lệnh: cat data.txt | base64 -d
+          1. base64 -d: d là decode, giải mã
