@@ -10,7 +10,7 @@
 ***bandit5: WELCOME to đại cương lệnh find đmm :))))
     1. câu lệnh: find . -con a -con b -con c ..... -con n cat {} \;
        + con: điều kiện ( conditional )
-    2. dấu . là tìm trong tất cả mọi thứ trong thư viện đó
+    2. dấu . là tìm trong tất cả mọi thứ trong file đó
     3. nếu cần tìm kích thước thì size + kích thước
         + ví dụ: size 1000c 
              + c là đơn vị, tượng trưng cho byte, ta có byte >two-byte > kilobytes > megabytes > gigabytes là thuộc các chữ tương ứng c > w > k > M > G
