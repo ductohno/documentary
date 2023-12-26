@@ -38,3 +38,8 @@
 ***bandit10
        *câu lệnh: cat data.txt | base64 -d
           1. base64 -d: d là decode, giải mã
+***bandit11
+       *câu lệnh: cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+          1. tr là translation: dịch hoặc xóa text
+          2."A-Za-z" : giới hạn từ A -Z và từ a-z
+          3."N-ZA-Mn-za-m : mã rot 13 ( là N thành Z, a thành m, đương nhiên là sẽ lấy kí tự đầu và cuối :))))
