@@ -19,3 +19,10 @@
     5.  "-executable" : có thể thực thi, nếu muốn dùng câu lệnh ko thực thi thì là '! -executable'.
     6. cat {}: truy cập vào file vừa tìm được bởi find 
     7.  '\;' : kết thúc flag
+***bandit6:
+     1. "/" trong find / mang nghĩa scan toàn bộ hệ thống 
+     2. 2>/dev/null: chuyển các thư mục bị lỗi ( file permission denied) về thư mục dev/null
+        - 1>: xuất những output không bị lỗi
+        - 2>: xuất những output bị lỗi ( tức là ném hết output bị lỗi sang dev/null)
+     3. câu lệnh: find / -user bandit7 -group bandit6 -size 33c 2>/dev/null -exec cat {} \;
+
