@@ -8,7 +8,7 @@
 ***bandit4: Để truy cập tất cả các file trong dictionary, ta sử dụng dấu * thay cho tất cả các file 
     - ví dụ: file *: định dạng file tất cả các file.
 ***bandit5: WELCOME to đại cương lệnh find đmm :))))
-    1. câu lệnh: find . -con a -con b -con c ..... -con n cat {} \;
+    1. câu lệnh: find . -con a -con b -con c ..... -con n -exec cat {} \;
        + con: điều kiện ( conditional )
     2. dấu . là tìm trong tất cả mọi thứ trong file đó
     3. nếu cần tìm kích thước thì size + kích thước
