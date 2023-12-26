@@ -32,4 +32,7 @@
        *câu lệnh: sort data.txt | uniq -u
           1. sort: sắp xếp từ a đến z
           2. uniq -u: chỉ ra kết quả không bị trùng lặp
+***bandit9 
+       *câu lệnh: cat data.txt | strings | grep "=="
+          1. strings: hiển thị file dưới dạng strings 
 
