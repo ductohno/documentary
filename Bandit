@@ -28,4 +28,8 @@
 ***bandit7 
       1. câu lệnh: cat data.txt | grep "millionth"
       2. "|" là dấu kết nối output của lệnh cat sang lệnh grep
+***bandit8
+       *câu lệnh: sort data.txt | uniq -u
+          1. sort: sắp xếp từ a đến z
+          2. uniq -u: chỉ ra kết quả không bị trùng lặp
 
