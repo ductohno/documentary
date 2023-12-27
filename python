@@ -2,3 +2,14 @@
                    slice(3,-1)
                    print(web(slice))
                 kết quả: heendles
+2. dictionary: - cấu trúc {key1:value1, key2:value2, ... , keyn:valuen}
+               - khi dùng key để print thì nên dùng hàm get (print(capitals.get('France'))) (France là key, capitals là dictionary)
+               - để in ra toàn bộ key thì dùng print(capitals.key())
+               - để in ra toàn bộ value thì dùng print(capitals.value())
+               - dùng print(capitals.items()) để in ra toàn bộ dictionaries
+               - dùng hàm for với capitals.items() để in dictionary ra theo dạng: key1 value1
+                                                                                  ...........
+                                                                                  keyn valuen
+              - để thêm giá trị cho dict ta dùng capitals.update({key m: value m,...}), ngoài ra thì update còn dc dùng để thay thế các giá trị cũ
+3. index: - để viết chữ in thường, ta xài name.lower; để viết chữ đầu in hoa, ta xài capitalize(); để check ta xài name.islower ( ko có iscapitalize)
+          - cách dễ nhất là dùng ascii
