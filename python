@@ -1,2 +1,4 @@
-1. slicing string: slice(a,b)
+1. slicing string: web="totheendless"
+                   slice(3,-1)
                    print(web(slice))
+                kết quả: heendles
