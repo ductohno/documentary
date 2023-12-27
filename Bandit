@@ -45,4 +45,17 @@
           3."N-ZA-Mn-za-m : mã rot 13 ( là N thành Z, a thành m, đương nhiên là sẽ lấy kí tự đầu và cuối :))))
 ***bandit12 ( dài vãi lol)
     1. pwd: ( print working directory) : In ra thư mục làm việc theo đường dẫn, vd : /home/bandit12
-    2. 
+    2. tmp: là thư mục lưu trữ ngắn hạn trong linux, cách tạo: mkdir /tmp/ +tên thư viện
+    3. xxd: chuyển file từ dạng binary về dạng hexdump
+       - xxd -r: làm ngược lại 
+       - câu lệnh: xxd -r data.txt data.gz ( do xác định được file data.txt nén dạng gzip có đuôi .gz, chi tiết xem tại file signatures trên wiki )
+            + data.txt: data cần chuyển
+            + data.gz: Output
+    4. gzip -d: giải nén file gzip, cú pháp: gzip -d data.gz
+    5. mv: giúp di chuyển file, đồng thời giúp đổi tên file, giúp file có thể giải nén dc
+       - câu lệnh: mv data data.bz
+    6. Dữ liệu: file bzip2 có đuôi là .bz
+    7. Có thể sử dụng toán tử và (&&) để rút ngắn các bước
+       - Câu lệnh: mv data data.gz && gzip -d data.gz
+    8. Dữ liệu: file tar có đuôi .tar
+       Để giải nén dữ liệu kiểu tar ta dùng tar -xf
