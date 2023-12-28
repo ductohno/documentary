@@ -60,7 +60,10 @@
     8. Dữ liệu: file tar có đuôi .tar
        Để giải nén dữ liệu kiểu tar ta dùng tar -xf
 ***bandit13
-        * câu lệnh: ssh -i sshkey.private bandit14@localhost -p 2220
+        * câu lệnh 1: ssh -i sshkey.private bandit14@localhost -p 2220
              1. ssh -i cho phép ta truy cập thông qua private key
              2. sshkey.private là private key 
+        * câu lệnh 2: cat /etc/bandit_pass/bandit14
+             1. /etc/bandit_pass/bandit14 đơn giản là đường dẫn của file đó
+
 
