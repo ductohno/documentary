@@ -59,3 +59,8 @@
        - Câu lệnh: mv data data.gz && gzip -d data.gz
     8. Dữ liệu: file tar có đuôi .tar
        Để giải nén dữ liệu kiểu tar ta dùng tar -xf
+***bandit13
+        * câu lệnh: ssh -i sshkey.private bandit14@localhost -p 2220
+             1. ssh -i cho phép ta truy cập thông qua private key
+             2. sshkey.private là private key 
+
