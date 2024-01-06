@@ -13,3 +13,4 @@
               - để thêm giá trị cho dict ta dùng capitals.update({key m: value m,...}), ngoài ra thì update còn dc dùng để thay thế các giá trị cũ
 3. index: - để viết chữ in thường, ta xài name.lower; để viết chữ đầu in hoa, ta xài capitalize(); để check ta xài name.islower ( ko có iscapitalize)
           - cách dễ nhất là dùng ascii
+4. Để biến 1 list thành 1 string, ta dùng: string = ''.join(l)    ( l là list )
