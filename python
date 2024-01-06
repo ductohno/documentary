@@ -14,3 +14,5 @@
 3. index: - để viết chữ in thường, ta xài name.lower; để viết chữ đầu in hoa, ta xài capitalize(); để check ta xài name.islower ( ko có iscapitalize)
           - cách dễ nhất là dùng ascii
 4. Để biến 1 list thành 1 string, ta dùng: string = ''.join(l)    ( l là list )
+5. any: trả về True False. Nếu bất kì thứ gì trong any đúng trả về True. Trả về False nếu tất cả các đk trong any đều fail
+    print(any())
