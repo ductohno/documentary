@@ -5,3 +5,5 @@ pwd: hiện đường dẫn thư mục
 muốn xem hướng dẫn về lệnh -h hoặc --help
 cách để về home: cd /
 để tìm root xài cd / xong đó cd root, để quay lại home bấm cd 
+root có quyền truy cập mọi file, còn user ko có quyền đó: ( root là khu nhà, user là ô đất )
+gõ sudo su để vào root
