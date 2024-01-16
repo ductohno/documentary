@@ -1,3 +1,6 @@
 linux gồm dòng lệnh và màn hình (GUI)
 học về shell bash
 ENVs: environment variable, câu lệnh: env 
+pwd: hiện đường dẫn thư mục
+muốn xem hướng dẫn về lệnh -h hoặc --help
+cách để về home: cd /
