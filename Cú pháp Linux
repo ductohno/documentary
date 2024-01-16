@@ -9,3 +9,4 @@ root có quyền truy cập mọi file, còn user ko có quyền đó: ( root l�
 gõ sudo su để vào root
 để tạo 1 file trống ta xài touch (name file)
 để ghi dữ liệu vào dưới cùng của 1 file ta xài: echo  (nội dung cần nhập) >> (file cần viết vào)
+để ghi đè dữ liệu vào 1 file ta xài echo  (nội dung cần nhập) > (file cần viết vào)
