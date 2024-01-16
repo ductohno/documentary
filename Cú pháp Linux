@@ -15,3 +15,4 @@ gõ sudo su để vào root
 chown: change ownership
 su: switch user có câu lệnh là su (tên user)
 để thêm user ta xài sudo adduser (tên user)
+ifconfig: kiểm tra mạng
