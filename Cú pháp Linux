@@ -16,3 +16,4 @@ chown: change ownership
 su: switch user có câu lệnh là su (tên user)
 để thêm user ta xài sudo adduser (tên user)
 ifconfig: kiểm tra mạng
+cmp: compare 2 file byte to byte
