@@ -7,4 +7,5 @@ cách để về home: cd /
 để tìm root xài cd / xong đó cd root, để quay lại home bấm cd 
 root có quyền truy cập mọi file, còn user ko có quyền đó: ( root là khu nhà, user là ô đất )
 gõ sudo su để vào root
-để tạo 1 file trống ta xài touch + name file 
+để tạo 1 file trống ta xài touch (name file)
+để ghi dữ liệu vào dưới cùng của 1 file ta xài: echo  (nội dung cần nhập) >> (file cần viết vào)
