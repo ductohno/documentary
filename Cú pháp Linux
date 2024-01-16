@@ -4,3 +4,4 @@ ENVs: environment variable, câu lệnh: env
 pwd: hiện đường dẫn thư mục
 muốn xem hướng dẫn về lệnh -h hoặc --help
 cách để về home: cd /
+để tìm root xài cd / xong đó cd root, để quay lại home bấm cd 
