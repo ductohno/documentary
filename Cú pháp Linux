@@ -18,3 +18,4 @@ su: switch user có câu lệnh là su (tên user)
 ifconfig: kiểm tra mạng
 cmp: compare 2 file byte to byte
 less (tên file): giống cat, nhưng hiện sang shell khác
+alias: dùng 1 từ để thay thế cho 1 câu lệnh, chả hạn alias md='mkdir' thì nháy md tức là mkdir
