@@ -3,22 +3,30 @@ học về shell bash
 ENVs: environment variable, câu lệnh: env 
 pwd: hiện đường dẫn thư mục
 muốn xem hướng dẫn về lệnh -h hoặc --help
+
 cách để về home: cd /
 để tìm root xài cd / xong đó cd root, để quay lại home bấm cd 
 root có quyền truy cập mọi file, còn user ko có quyền đó: ( root là khu nhà, user là ô đất )
 gõ sudo su để vào root
+
 để tạo 1 file trống ta xài touch (name file)
 để ghi dữ liệu vào dưới cùng của 1 file ta xài: echo  (nội dung cần nhập) >> (file cần viết vào)
 để ghi đè dữ liệu vào 1 file ta xài echo  (nội dung cần nhập) > (file cần viết vào)
 để truy cập vào 1 file để chỉnh sửa tùy ý ta xài: nano (tên file)
 để xóa 1 thư lệnh ta xài rm -r
+
 chown: change ownership
 su: switch user có câu lệnh là su (tên user)
 để thêm user ta xài sudo adduser (tên user)
+
 ifconfig: kiểm tra mạng
 cmp: compare 2 file byte to byte
 less (tên file): giống cat, nhưng hiện sang shell khác
 alias: dùng 1 từ để thay thế cho 1 câu lệnh, chả hạn alias md='mkdir' thì nháy md tức là mkdir
+
 Tạo bash: để tạo 1 shell có thể chạy ta xài nano tạo empty file, xong đó thêm #!/bin/bash rồi xuống dòng nhập câu lệnh
 Nhập dữ liệu: để tạo 1 bash có thể nhập dữ liệu, ta xài echo nhap ten: , read name và echo $name, sau đó ta có thể nhập dữ liệu
 Thêm quyền sudo: Để thêm quyền sudo cho user name mới tạo ta xài sudo usermod -aG sudo (tên user)
+Kiểm tra quyền su: để kiểm tra xem 1 tài khoán có quyền su không ta xài sudo ls -la
+Để xóa 1 username ta xài userdel (tên user)
+Để biết có bao nhiêu user trong tài khoản ta xài getent passwd | cut -d: -f1
