@@ -21,4 +21,4 @@ less (tên file): giống cat, nhưng hiện sang shell khác
 alias: dùng 1 từ để thay thế cho 1 câu lệnh, chả hạn alias md='mkdir' thì nháy md tức là mkdir
 Tạo bash: để tạo 1 shell có thể chạy ta xài nano tạo empty file, xong đó thêm #!/bin/bash rồi xuống dòng nhập câu lệnh
 Nhập dữ liệu: để tạo 1 bash có thể nhập dữ liệu, ta xài echo nhap ten: , read name và echo $name, sau đó ta có thể nhập dữ liệu
-Thêm quyền sudo: Để thêm quyền sudo cho user name mới tạo ta xài sudo usermod aG sudo (tên user)
+Thêm quyền sudo: Để thêm quyền sudo cho user name mới tạo ta xài sudo usermod -aG sudo (tên user)
