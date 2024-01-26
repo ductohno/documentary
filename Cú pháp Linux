@@ -40,3 +40,7 @@ CPU: Để lấy thông tin từ CPU ta xài cat /proc/cpuinfo
 
 * Find đại cương
 Thêm flag -perm /o=w để tra cấp quyền viết với other 
+
+* Regex
+/ : cho phép tìm toàn bộ hệ thống
+. : cho phép tìm toàn bộ thư viện đang ở
