@@ -30,3 +30,6 @@ Thêm quyền sudo: Để thêm quyền sudo cho user name mới tạo ta xài s
 Kiểm tra quyền su: để kiểm tra xem 1 tài khoán có quyền su không ta xài sudo ls -la
 Để xóa 1 username ta xài userdel (tên user)
 Để biết có bao nhiêu user trong tài khoản ta xài getent passwd | cut -d: -f1
+
+Để lấy kí tự sau cái gì ta xài cut -d ':' -f1 (f1 là vị trí cần cắt )
+Để lấy 1 dòng ta xài head -1
