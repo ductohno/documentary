@@ -31,7 +31,9 @@ Kiểm tra quyền su: để kiểm tra xem 1 tài khoán có quyền su không 
 Để xóa 1 username ta xài userdel (tên user)
 Để biết có bao nhiêu user trong tài khoản ta xài getent passwd | cut -d: -f1
 
+*Thêm bớt kí tự
 Để lấy kí tự sau cái gì ta xài cut -d ':' -f1 (f1 là in ra phần đằng trước vị trí cần cắt, f2 là đằng sau đó)
 Để lấy 1 dòng ta xài head -1
+Muốn cut từ vị trí mong muốn đến hết ta xài cut -c 16- ( cắt từ kí tự 16 đến hết, nhớ có -)
 
 CPU: Để lấy thông tin từ CPU ta xài cat /proc/cpuinfo
