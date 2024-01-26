@@ -33,3 +33,5 @@ Kiểm tra quyền su: để kiểm tra xem 1 tài khoán có quyền su không 
 
 Để lấy kí tự sau cái gì ta xài cut -d ':' -f1 (f1 là vị trí cần cắt )
 Để lấy 1 dòng ta xài head -1
+
+CPU: Để lấy thông tin từ CPU ta xài cat /proc/cpuinfo
