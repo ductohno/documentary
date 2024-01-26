@@ -37,3 +37,6 @@ Kiểm tra quyền su: để kiểm tra xem 1 tài khoán có quyền su không 
 Muốn cut từ vị trí mong muốn đến hết ta xài cut -c 16- ( cắt từ kí tự 16 đến hết, nhớ có -)
 
 CPU: Để lấy thông tin từ CPU ta xài cat /proc/cpuinfo
+
+* Find đại cương
+Thêm flag -perm /o=w để tra cấp quyền viết với other 
