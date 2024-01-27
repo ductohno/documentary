@@ -63,5 +63,5 @@ Muốn gọi hàm thì dùng source (tên hàm)
 
 *Sed: Thực hiện thay đổi với nội dung của tệp tin
 -i (immediate) : Sửa đổi tệp tin trực tiếp
-'/^$/d' (Regex) : xóa các dòng trống 
+'/^$/d' (^$ tức nghĩa là tìm dòng trống (Regex), còn d là delete) : xóa các dòng trống 
 
