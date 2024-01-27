@@ -60,3 +60,8 @@ Muốn gọi hàm thì dùng source (tên hàm)
 ! dùng để đảo ngược lệnh 
 -n trả về True nếu biến chứa giá trị, và False nếu ko chứa giá trị (number)
 -z trả về True nếu biến rỗng, False nếu biến chứa giá trị (zero)
+
+*Sed: Thực hiện thay đổi với nội dung của tệp tin
+-i (immediate) : Sửa đổi tệp tin trực tiếp
+'/^$/d' (Regex) : xóa các dòng trống 
+
