@@ -53,3 +53,10 @@ Thêm flag -perm /o=w để tra cấp quyền viết với other
 *Gọi hàm và function
 Cú pháp : function (name) () { #command}
 Muốn gọi hàm thì dùng source (tên hàm)
+
+
+*If 
+-f dùng để tìm file có tồn tại hay không, nếu True sẽ thực hiện lệnh ở then (file)
+! dùng để đảo ngược lệnh 
+-n trả về True nếu biến chứa giá trị, và False nếu ko chứa giá trị (number)
+-z trả về True nếu biến rỗng, False nếu biến chứa giá trị (zero)
