@@ -24,12 +24,14 @@ cmp: compare 2 file byte to byte
 less (tên file): giống cat, nhưng hiện sang shell khác
 alias: dùng 1 từ để thay thế cho 1 câu lệnh, chả hạn alias md='mkdir' thì nháy md tức là mkdir
 
+*Bash
 Tạo bash: để tạo 1 shell có thể chạy ta xài nano tạo empty file, xong đó thêm #!/bin/bash rồi xuống dòng nhập câu lệnh
 Nhập dữ liệu: để tạo 1 bash có thể nhập dữ liệu, ta xài echo nhap ten: , read name và echo $name, sau đó ta có thể nhập dữ liệu
 Thêm quyền sudo: Để thêm quyền sudo cho user name mới tạo ta xài sudo usermod -aG sudo (tên user)
 Kiểm tra quyền su: để kiểm tra xem 1 tài khoán có quyền su không ta xài sudo ls -la
 Để xóa 1 username ta xài userdel (tên user)
 Để biết có bao nhiêu user trong tài khoản ta xài getent passwd | cut -d: -f1
+Để tạo 1 câu lệnh bằng bash: Vào usr/local/bin xong đó touch 1 file và cấp quyền 777 cho nó, chỉnh sửa và lưu
 
 *Thêm bớt kí tự
 Để lấy kí tự sau cái gì ta xài cut -d ':' -f1 (f1 là in ra phần đằng trước vị trí cần cắt, f2 là đằng sau đó)
