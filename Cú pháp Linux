@@ -48,3 +48,8 @@ Thêm flag -perm /o=w để tra cấp quyền viết với other
 *Translate(tr), cú pháp tr -flag set1 [set2]
 -d : xóa set 1 mà không dịch 
 \n : dòng mới 
+
+
+*Gọi hàm và function
+Cú pháp : function (name) () { #command}
+Muốn gọi hàm thì dùng source (tên hàm)
