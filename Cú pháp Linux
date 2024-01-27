@@ -67,3 +67,6 @@ Muốn gọi hàm thì dùng source (tên hàm)
 -i (immediate) : Sửa đổi tệp tin trực tiếp
 '/^$/d' (^$ tức nghĩa là tìm dòng trống (Regex), còn d là delete) : xóa các dòng trống 
 
+* $
+$0 chỉ vị trí file bash
+
