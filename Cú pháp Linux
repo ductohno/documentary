@@ -70,3 +70,7 @@ Muốn gọi hàm thì dùng source (tên hàm)
 * $
 $0 chỉ vị trí file bash
 
+* exit
+exit 0: thoát và ko trả về kết quả
+exit 1: thoát ra và trả về lỗi
+
