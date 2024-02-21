@@ -8,3 +8,6 @@ Itertools:
    - permutations: hoán vị
         + cú pháp: list(permutations(dữ liệu, times))
         + time: số phần tử lấy trong dữ liệu cho mỗi lần hoán vị
+Textwrap:
+    - wrap(strings, width = need width): nó sẽ tách strings thành các strings có width kí tự, xong đó tạo thành 1 list
+    - fill(text, width= need width ): khiến cho chuỗi văn bản thành các đoạn văn có chiều dài bằng width
